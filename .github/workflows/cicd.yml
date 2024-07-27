@@ -41,4 +41,4 @@ jobs:
         run: docker rm -f spring-app-container || true
 
       - name: Run Docker Container
-        run: docker run -d -p 9000:5000 --name spring-app-container nithyanandnadar/spring-app
+        run: docker run -d -p 3000:5000 --name spring-app-container nithyanandnadar/spring-app
