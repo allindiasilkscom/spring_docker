@@ -13,7 +13,7 @@ public class Controller {
 
     @GetMapping("/home")
     public String Home(){
-        return  "home";
+        return  "welcoem to docker";
     }
     @GetMapping("/students")
     public String getAllStudent(Model model){
